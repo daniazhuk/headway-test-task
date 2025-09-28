@@ -1,0 +1,52 @@
+.typography {
+  margin: 0;
+  padding: 0;
+}
+
+.typography--h1 {
+  font-size: 56px;
+}
+
+.typography--h2 {
+  font-size: 32px;
+}
+
+.typography--p {
+  font-size: 20px;
+}
+
+.typography--span {
+  font-size: 0.875rem;
+}
+
+.typography--bold {
+  font-weight: 600;
+}
+
+.typography--normal {
+  font-weight: normal;
+}
+
+.typography--color-orange {
+  color: var(--orange-default);
+}
+
+.typography--color-gray {
+  color: var(--gray-default);
+}
+
+.typography--color-black {
+  color: var(--black-default);
+}
+
+@media (max-width: 768px) {
+  .typography--h1 {
+    font-size: 32px;
+  }
+  .typography--h2 {
+    font-size: 18px;
+  }
+  .typography--p {
+    font-size: 14px;
+  }
+}

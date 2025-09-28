@@ -1,0 +1,148 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "text": "Who were the first people to walk on the Moon?",
+      "answers": [
+        { "id": "1a", "text": "Neil Armstrong", "isCorrect": true },
+        { "id": "1b", "text": "Buzz Aldrin", "isCorrect": true },
+        { "id": "1c", "text": "Yuri Gagarin", "isCorrect": false },
+        { "id": "1d", "text": "Michael Collins", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 50000
+    },
+    {
+      "id": "2",
+      "text": "Which ancient wonders still exist today?",
+      "answers": [
+        { "id": "2a", "text": "Great Pyramid of Giza", "isCorrect": true },
+        { "id": "2b", "text": "Hanging Gardens of Babylon", "isCorrect": false },
+        { "id": "2c", "text": "Statue of Zeus at Olympia", "isCorrect": false },
+        { "id": "2d", "text": "Temple of Artemis at Ephesus", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 1,
+      "prizeAmount": 100000
+    },
+    {
+      "id": "3",
+      "text": "Which of these are famous works by William Shakespeare?",
+      "answers": [
+        { "id": "3a", "text": "Hamlet", "isCorrect": true },
+        { "id": "3b", "text": "The Odyssey", "isCorrect": false },
+        { "id": "3c", "text": "Macbeth", "isCorrect": true },
+        { "id": "3d", "text": "Divine Comedy", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 200000
+    },
+    {
+      "id": "4",
+      "text": "Which ries were part of the Axis Powers in World War II?",
+      "answers": [
+        { "id": "4a", "text": "Germany", "isCorrect": true },
+        { "id": "4b", "text": "Italy", "isCorrect": true },
+        { "id": "4c", "text": "United Kingdom", "isCorrect": false },
+        { "id": "4d", "text": "Japan", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 3,
+      "prizeAmount": 400000
+    },
+    {
+      "id": "5",
+      "text": "Which of these are Roman emperors?",
+      "answers": [
+        { "id": "5a", "text": "Julius Caesar", "isCorrect": false },
+        { "id": "5b", "text": "Augustus", "isCorrect": true },
+        { "id": "5c", "text": "Nero", "isCorrect": true },
+        { "id": "5d", "text": "Constantine the Great", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 800000
+    },
+    {
+      "id": "6",
+      "text": "Which scientists developed the theory of evolution and the theory of relativity?",
+      "answers": [
+        { "id": "6a", "text": "Isaac Newton", "isCorrect": false },
+        { "id": "6b", "text": "Albert Einstein", "isCorrect": true },
+        { "id": "6c", "text": "Charles Darwin", "isCorrect": true },
+        { "id": "6d", "text": "Niels Bohr", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 1600000
+    },
+    {
+      "id": "7",
+      "text": "Which cities hosted the Olympic Games in the 21st century?",
+      "answers": [
+        { "id": "7a", "text": "Beijing", "isCorrect": true },
+        { "id": "7b", "text": "London", "isCorrect": true },
+        { "id": "7c", "text": "Athens", "isCorrect": true },
+        { "id": "7d", "text": "Berlin", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 3,
+      "prizeAmount": 3200000
+    },
+    {
+      "id": "8",
+      "text": "Which of these are famous paintings?",
+      "answers": [
+        { "id": "8a", "text": "Mona Lisa", "isCorrect": true },
+        { "id": "8b", "text": "The Starry Night", "isCorrect": true },
+        { "id": "8c", "text": "The Thinker", "isCorrect": false },
+        { "id": "8d", "text": "The Scream", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 6400000
+    },
+    {
+      "id": "9",
+      "text": "Which of these are types of governments?",
+      "answers": [
+        { "id": "9a", "text": "Democracy", "isCorrect": true },
+        { "id": "9b", "text": "Monarchy", "isCorrect": true },
+        { "id": "9c", "text": "Feudalism", "isCorrect": false },
+        { "id": "9d", "text": "Republic", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 3,
+      "prizeAmount": 12500000
+    },
+    {
+      "id": "10",
+      "text": "Which of these are deserts?",
+      "answers": [
+        { "id": "10a", "text": "Sahara", "isCorrect": true },
+        { "id": "10b", "text": "Amazon", "isCorrect": false },
+        { "id": "10c", "text": "Gobi", "isCorrect": true },
+        { "id": "10d", "text": "Andes", "isCorrect": false }
+      ],
+      "minCorrectAnswers": 2,
+      "prizeAmount": 25000000
+    },
+    {
+      "id": "11",
+      "text": "Which of these are programming languages?",
+      "answers": [
+        { "id": "11a", "text": "Rust", "isCorrect": true },
+        { "id": "11b", "text": "C#", "isCorrect": true },
+        { "id": "11c", "text": "Excel", "isCorrect": false },
+        { "id": "11d", "text": "Go", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 3,
+      "prizeAmount": 50000000
+    },
+    {
+      "id": "12",
+      "text": "Which of these are world religions?",
+      "answers": [
+        { "id": "12a", "text": "Christianity", "isCorrect": true },
+        { "id": "12b", "text": "Buddhism", "isCorrect": true },
+        { "id": "12c", "text": "Atheism", "isCorrect": false },
+        { "id": "12d", "text": "Islam", "isCorrect": true }
+      ],
+      "minCorrectAnswers": 3,
+      "prizeAmount": 100000000
+    }
+  ]
+}

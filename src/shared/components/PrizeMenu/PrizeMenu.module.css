@@ -1,0 +1,41 @@
+.prize-menu__mobile-prizes-trigger {
+  position: fixed;
+  display: none;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  right: 16px;
+  z-index: 2;
+}
+
+.prize-menu__mobile-prizes {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--gray-light);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.prize-menu__mobile-prizes--open {
+  transform: translateX(-100%);
+}
+
+@media (max-width: 768px) {
+  .prize-menu__mobile-prizes-trigger {
+    display: block;
+  }
+  .prize-menu__mobile-prizes-trigger path {
+    fill: var(--black-default);
+  }
+  .prize-menu__mobile-prizes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

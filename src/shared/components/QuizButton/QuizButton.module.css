@@ -1,0 +1,89 @@
+.quiz-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.quiz-button:hover .quiz-button__icon path {
+  stroke: var(--orange-default);
+}
+
+.quiz-button:hover .quiz-button__line {
+  background-color: var(--orange-default);
+}
+
+.quiz-button.quiz-button--selected .quiz-button__icon path {
+  fill: var(--orange-light);
+  stroke: var(--orange-default);
+}
+
+.quiz-button.quiz-button--selected .quiz-button__line {
+  background-color: var(--orange-default);
+}
+
+.quiz-button.quiz-button--correct .quiz-button__icon path {
+  fill: var(--green-light);
+  stroke: var(--green-default);
+}
+
+.quiz-button.quiz-button--correct .quiz-button__line {
+  background-color: var(--green-default);
+}
+
+.quiz-button.quiz-button--wrong .quiz-button__icon path {
+  fill: var(--red-light);
+  stroke: var(--red-default);
+}
+
+.quiz-button.quiz-button--wrong .quiz-button__line {
+  background-color: var(--red-default);
+}
+
+.quiz-button__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.quiz-button__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+}
+
+.quiz-button__icon path {
+  fill: var(--white-default);
+  stroke: var(--gray-default);
+  transition:
+    fill 0.3s ease-in-out,
+    stroke 0.3s ease-in-out;
+}
+
+.quiz-button__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100%;
+  width: 100%;
+  color: black;
+  padding-left: 32px;
+  padding-right: 32px;
+  z-index: 1;
+}
+
+.quiz-button__line {
+  width: 17px;
+  height: 1px;
+  background-color: var(--gray-default);
+  transition: background-color 0.3s ease-in-out;
+}
