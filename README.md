@@ -6,7 +6,7 @@ It is built using **Next.js** and **React**.
 ## 🚀 Live Demo
 
 You can try the deployed version on Vercel:  
-👉 [Headway Quiz App](/)
+👉 [Headway Quiz App](https://headway-test-task-nine.vercel.app/)
 
 ---
 
